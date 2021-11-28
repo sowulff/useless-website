@@ -1,6 +1,33 @@
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
 body{
   background-color: cadetblue;
+
 }
+
+.header-parallax {
+  height: 600px;
+  width: 100%;
+  background-color: burlywood;
+  position: fixed;
+}
+.header-parallax h1{
+  text-align: center;
+  padding: 300px 0;
+
+}
+main {
+  background-color: blue;
+  position: relative;
+  top: 600px;
+  color: aliceblue;
+height: 1000px ;
+}
+
+
 
 .cloud {
   width: 100px;
